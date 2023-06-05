@@ -6,8 +6,12 @@ A demo of crosschain lending, using chainsight.
 
 This demo shows how to use the [chainsight](https://chainsight.network/) protocol to deposit assets on one chain, and then lend token on another chain, using deposit assets as collateral.
 Also, it shows how to liquidate the collateral when the loan is not repaid. If the collateral is liquidated on the second chain, the deposit assets are released on the first chain to the liquidator.
+This is [one of a series of demos](https://docs.chainsight.network/use-cases/demo3-cross-chain-lending) that show how to use chainsight to build cross-chain applications.
 
 ![overview](demo.png)
+
+A working demo is available [here](https://cross-chain-lending-demo-ui.vercel.app/).
+
 
 ## Pre-requisites
 
@@ -130,3 +134,8 @@ cd chainsight && dfx canister call unlock_indexer_arbitrumGoerli save_logs && cd
 And you can confirm `unlock asset` tx [like this](https://goerli-optimism.etherscan.io/tx/0x22fbaed38640cb0ed5eb16398e8f9de0d058509bb171f30b7f916606067e4ddb)
 
 This transaction is sent by the `unlock_relayer_arbitrum` canister on local ICP, which is subscribed to the `unlock` event of the `unlock_indexer_arbitrum` canister.
+
+## More information
+
+- About Chainsight
+  - [Introduction - Chainsight Network](https://docs.chainsight.network/)
