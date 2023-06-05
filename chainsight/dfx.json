@@ -1,0 +1,62 @@
+{
+  "canisters": {
+    "lock_indexer_optimism": {
+      "candid": "src/lock_indexer/lock_indexer.did",
+      "package": "lock_indexer",
+      "type": "rust"
+    },
+    "lock_indexer_arbitrumGoerli": {
+      "candid": "src/lock_indexer/lock_indexer.did",
+      "package": "lock_indexer",
+      "type": "rust"
+    },
+    "unlock_indexer_optimism": {
+      "candid": "src/unlock_indexer/unlock_indexer.did",
+      "package": "unlock_indexer",
+      "type": "rust"
+    },
+    "unlock_indexer_arbitrumGoerli": {
+      "candid": "src/unlock_indexer/unlock_indexer.did",
+      "package": "unlock_indexer",
+      "type": "rust"
+    },
+    "lock_relayer_optimism": {
+      "candid": "src/lock_relayer/lock_relayer.did",
+      "package": "lock_relayer",
+      "type": "rust"
+    },
+    "lock_relayer_arbitrumGoerli": {
+      "candid": "src/lock_relayer/lock_relayer.did",
+      "package": "lock_relayer",
+      "type": "rust"
+    },
+    "unlock_relayer_optimism": {
+      "candid": "src/unlock_relayer/unlock_relayer.did",
+      "package": "unlock_relayer",
+      "type": "rust"
+    },
+    "unlock_relayer_arbitrumGoerli": {
+      "candid": "src/unlock_relayer/unlock_relayer.did",
+      "package": "unlock_relayer",
+      "type": "rust"
+    },
+    "oracle_manager": {
+      "candid": "src/oracle_manager/oracle_manager.did",
+      "package": "oracle_manager",
+      "type": "rust"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "output_env_file": ".env",
+  "networks": {
+    "local": {
+      "type": "ephemeral"
+    }
+  },
+  "version": 1
+}

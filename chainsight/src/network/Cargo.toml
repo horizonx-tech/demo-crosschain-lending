@@ -1,0 +1,16 @@
+[package]
+name = "network"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+
+[dependencies]
+candid = "0.8.4"
+ic-stable-memory = "0.4.4"
+lazy_static = "1.4.0"
+serde = "1.0.163"
+ic-web3 = { git = "https://github.com/horizonx-tech/ic-web3" }
+ic-solidity-bindgen = { git = "https://github.com/horizonx-tech/ic-solidity-bindgen" }
+

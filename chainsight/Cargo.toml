@@ -1,0 +1,9 @@
+[workspace]
+members = [
+    "src/lock_indexer",
+    "src/unlock_indexer",
+    "src/lock_relayer",
+    "src/unlock_relayer",
+    "src/oracle_manager",
+    "src/network",
+]
